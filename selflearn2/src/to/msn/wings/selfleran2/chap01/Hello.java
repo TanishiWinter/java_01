@@ -9,6 +9,7 @@ public class Hello {
 		System.out.println(time);
 		// TODO 自動生成されたメソッド・スタブ
 
+		// テスト
 		final double TAX = 1.08;
 		int price = 1000;
 		double sum = price * TAX;
