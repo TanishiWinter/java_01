@@ -13,7 +13,11 @@ public class Hello {
 		final double TAX = 1.08;
 		int price = 1000;
 		double sum = price * TAX;
-		System.out.print(sum);
+		System.out.println(sum);
+		
+		long m = 10;
+		float i = m;
+		System.out.println(i);
 		
 	}
 
