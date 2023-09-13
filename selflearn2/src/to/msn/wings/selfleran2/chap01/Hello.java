@@ -15,6 +15,7 @@ public class Hello {
 		double sum = price * TAX;
 		System.out.println(sum);
 		
+		// long→int変換は出来ない、なのでfloatに変換もしくはdoubleもあり
 		long m = 10;
 		float i = m;
 		System.out.println(i);
