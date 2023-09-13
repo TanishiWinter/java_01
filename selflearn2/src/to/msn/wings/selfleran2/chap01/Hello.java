@@ -20,6 +20,11 @@ public class Hello {
 		float i = m;
 		System.out.println(i);
 		
+		// long→int変換をする
+		long m1 = 10;
+		int i1 = (int)m1;
+		System.out.println(i1);
+		
 		// 多次元配列の宣言
 		int[][] list = {
 				{1,2,3},
@@ -36,7 +41,7 @@ public class Hello {
 		};
 		System.out.println(list1[1][3]);
 		
-		//文字連結の実行
+		//文字連結の実行(仮)
 		var builder = new StringBuilder(1000);
 		for (var h = 0; h < 100000; h++) {
 			builder.append("いろは");
