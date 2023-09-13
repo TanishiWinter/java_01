@@ -36,6 +36,13 @@ public class Hello {
 		};
 		System.out.println(list1[1][3]);
 		
+		//文字連結の実行
+		var builder = new StringBuilder(1000);
+		for (var h = 0; h < 100000; h++) {
+			builder.append("いろは");
+		}
+		var result = builder.toString();
+		
 	}
 
 }
