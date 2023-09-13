@@ -20,6 +20,22 @@ public class Hello {
 		float i = m;
 		System.out.println(i);
 		
+		// 多次元配列の宣言
+		int[][] list = {
+				{1,2,3},
+				{4,5,6},
+				{7,8,9},
+		};
+		System.out.println(list[2][2]);
+		
+		// 多次元配列の宣言(ギザギザ配列)
+		int[][] list1 = {
+				{1,2},
+				{3,4,5,6},
+				{7,8,9},
+		};
+		System.out.println(list1[1][3]);
+		
 	}
 
 }
