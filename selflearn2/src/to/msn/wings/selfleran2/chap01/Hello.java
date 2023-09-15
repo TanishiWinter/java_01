@@ -48,6 +48,9 @@ public class Hello {
 		}
 		var result = builder.toString();
 		
+//		復習
+		System.out.println("こんにちは");
+		
 	}
 
 }
