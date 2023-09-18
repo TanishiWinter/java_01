@@ -51,6 +51,10 @@ public class Hello {
 //		復習
 		System.out.println("こんにちは");
 		
+		//キャスト演算子練習
+		int age = (int)3.2;
+		System.out.println(age);
+		
 	}
 
 }
