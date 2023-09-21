@@ -20,6 +20,16 @@ public class Lesson2 {
 		System.out.println(a);
 		System.out.println(c);
 		System.out.println(a + "を" + b + "で割った余りは" + d);
+		
+		//強制的な型変換(イコールの右側に(入れたい型)を入力することで型変換が可能)
+		int age = (int)3.2;
+		System.out.println(age);
+		
+		//大きい方の数値の代入命令
+		a = 5;
+		b = 3;
+		int m = Math.max(a, b);
+		System.out.println("比較実験" + a + "と" + b + "とでは大きい方は" + m);
 
 	}
 
