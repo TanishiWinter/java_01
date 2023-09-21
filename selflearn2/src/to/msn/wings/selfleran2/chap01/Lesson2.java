@@ -30,6 +30,24 @@ public class Lesson2 {
 		b = 3;
 		int m = Math.max(a, b);
 		System.out.println("比較実験" + a + "と" + b + "とでは大きい方は" + m);
+		
+		//String型をint型に変換する命令
+		String age2 = "31";
+		int n = Integer.parseInt(age2);
+		System.out.println("あなたは来年、" + (n + 1) + "歳です");
+		
+		//数値ランダム生成
+		int r = new java.util.Random().nextInt(90);
+		System.out.println("あなたは来年、" + r + "歳ですか？");
+		
+		//キーボード入力を受け付ける命令
+		System.out.println("あなたの名前を入力してください");
+		String name = new java.util.Scanner(System.in).nextLine();
+		System.out.println("あなたの年齢を入力してください");
+		int age3 = new java.util.Scanner(System.in).nextInt();
+		System.out.println("ようこそ" + age3 + "歳の" + name + "さん");
+		
+		
 
 	}
 
