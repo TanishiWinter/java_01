@@ -24,6 +24,20 @@ public class Lesson4 {
 			System.out.println("凶");
 			break;
 		}
+		
+		//乗算
+		for (int i = 0; i < 3; i++) {
+			System.out.println("現在" + (i + 1) + "週目");
+		}
+		
+		//偶数と奇数で場合分け
+		for (int i = 1; i < 11; i++) {
+			if (i % 2 == 0) {
+				System.out.println(i + "は偶数");
+			} else {
+				System.out.println(i + "は奇数");
+			}
+		}
 
 	}
 
