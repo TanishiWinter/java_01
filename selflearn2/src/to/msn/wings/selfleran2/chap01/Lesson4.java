@@ -39,7 +39,7 @@ public class Lesson4 {
 			}
 		}
 		
-		
+		//1～10までの偶数の合計値と個数
 		int sum = 0;
 		int cnt = 0;
 		for (int i = 1; i < 11; i++) {
@@ -50,7 +50,15 @@ public class Lesson4 {
 		}
 		System.out.println("1～10までの偶数の合計値は" + sum + "です");
 		System.out.println("1～10までの偶数の個数は" + cnt + "です");
-
+        
+		//1～10までの整数をカンマ区切り
+		int[] number = {1,2,3,4,5,6,7,8,9,10};
+		for(int i = 0; i < number.length; i++) {
+			System.out.print(number[i]);
+			if(number[i] != 10) {
+				System.out.print(",");
+			}
+		}
 	}
 
 }
