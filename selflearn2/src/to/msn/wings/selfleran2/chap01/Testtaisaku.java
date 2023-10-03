@@ -58,18 +58,18 @@ public class Testtaisaku {
 		}
 		for(int i = 1; i < 11; i++) {
 			if(x[i] % 2 != 0) {
-				str = Integer.valueOf(x[i])+",";
-				System.out.print(str);
+				str += String.valueOf(x[i])+",";
 			}
 		}
+		System.out.print(str.substring(0, str.length()));
 		str = "";
 		for(int i = 11; i < 20; i++) {
 			if(x[i] % 2 == 0) {
-				str = Integer.valueOf(x[i])+",";
-				System.out.print(str);
+				str += String.valueOf(x[i])+",";
 			}
 		
 		}
+		System.out.print(str.substring(0, str.length()-1));
 			
 	}
 
