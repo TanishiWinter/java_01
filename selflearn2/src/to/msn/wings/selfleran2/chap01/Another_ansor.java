@@ -27,7 +27,7 @@ public class Another_ansor {
 				x[i] = x[i - 1] + 5;
 				}
 				
-				//[1]～[10]
+				//[1]～[10]の奇数を抽出
 				for(int i = 1; i < 11; i++) {
 					if(x[i] % 2 != 0) {
 						if(flg) {
@@ -42,7 +42,7 @@ public class Another_ansor {
 				str = "";
 				flg = true;
 				
-				//[11]～[20]
+				//[11]～[20]の偶数を抽出
 				for(int i = 11; i < 20; i++) {
 					if(x[i] % 2 == 0) {
 						if(flg) {
