@@ -17,7 +17,7 @@ public class Another_ansor {
 					}
 				}
 				
-				//四問目
+				//四問目偶数奇数分け
 				int x[] = new int[20];
 				x[0] = 0;
 				String str = "";
