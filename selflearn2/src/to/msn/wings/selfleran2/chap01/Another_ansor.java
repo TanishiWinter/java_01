@@ -5,7 +5,7 @@ public class Another_ansor {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		
-		//Booleanを使用し、場合分けを実施
+		//Booleanを使用し、場合分けを実施(テスト問題)
 		//三問目
 		Boolean flg = true;
 				for(int i = 1; i < 11; i++) {
