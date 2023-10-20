@@ -12,6 +12,7 @@ public class Hukusyuu {
 			}
 		}
 		
+		//合計値と個数
 		int sum = 0;
 		int cnt = 0;
 		
