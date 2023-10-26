@@ -37,16 +37,19 @@ public class Lesson6 {
 			char[] base = {'A','T','G','C'};
 			System.out.print(base[seq[i]]);
 			
-			int[][] score = new int[2][3];
-			score[0][0] = 40;
-			score[0][1] = 50;
-			score[0][2] = 60;
-			score[1][0] = 70;
-			score[1][1] = 80;
-			score[1][2] = 90;
-			System.out.print(score[1][1]);
+			
 			
 		}
+		
+		//多次元配列の練習
+		int[][] score = new int[2][3];
+		score[0][0] = 40;
+		score[0][1] = 50;
+		score[0][2] = 60;
+		score[1][0] = 70;
+		score[1][1] = 80;
+		score[1][2] = 90;
+		System.out.print(score[1][1]);
 
 	}
 
